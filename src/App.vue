@@ -20,7 +20,8 @@
       <a href="/">About</a>
     </nav>
 
-    <article class="grid grid-flow-row justify-center pb-16 xl:grid-cols-[1fr_2fr] "> 
+    <article
+      class="grid grid-flow-row justify-center pb-16 xl:grid-cols-[1fr_2fr]">
       <div class="pt-30 pl-4 xl:pl-20 xl:pr-20 row-end-1">
         <h2 class="text-6xl xl:w-125 mb-8 font-semibold">
           Discover Our Latest Products
@@ -32,35 +33,40 @@
         <button class="mb-28">Buy Now</button>
       </div>
 
-      <div class="flex justify-center items-center xl:pr-30 xl:pt-20 select-none row-span-2">
-        <img class="w-full max-w-125" src="./assets/RedBeats.png" alt="redbeats" draggable="false" />
+      <div
+        class="flex justify-center items-center xl:pr-30 xl:pt-20 select-none row-span-2">
+        <img
+          class="w-full max-w-125"
+          src="./assets/RedBeats.png"
+          alt="redbeats"
+          draggable="false" />
       </div>
 
       <div class="flex justify-start gap-4 xl:pl-20">
-          <div class="flex select-none">
-            <img
-              class="w-15 h-15"
-              src="./assets/ava1.png"
-              alt="ava"
-              draggable="false" />
-            <img
-              class="w-15 h-15 -ml-5"
-              src="./assets/ava2.png"
-              alt="ava"
-              draggable="false" />
-            <img
-              class="w-15 h-15 -ml-5"
-              src="./assets/ava3.png"
-              alt="ava"
-              draggable="false" />
-            <img
-              class="w-15 h-15 -ml-5"
-              src="./assets/ava4.png"
-              alt="ava"
-              draggable="false" />
-          </div>
-          <p class="w-25 font-medium text-2xl">15k Well Reviews</p>
+        <div class="flex select-none">
+          <img
+            class="w-15 h-15"
+            src="./assets/ava1.png"
+            alt="ava"
+            draggable="false" />
+          <img
+            class="w-15 h-15 -ml-5"
+            src="./assets/ava2.png"
+            alt="ava"
+            draggable="false" />
+          <img
+            class="w-15 h-15 -ml-5"
+            src="./assets/ava3.png"
+            alt="ava"
+            draggable="false" />
+          <img
+            class="w-15 h-15 -ml-5"
+            src="./assets/ava4.png"
+            alt="ava"
+            draggable="false" />
         </div>
+        <p class="w-25 font-medium text-2xl">15k Well Reviews</p>
+      </div>
     </article>
 
     <article class="grid grid-cols-[4fr_3fr] bg-[#845ec2] h-150 text-white">
@@ -85,18 +91,21 @@
           </svg>
         </h1>
 
-        <div class="grid grid-cols-3 w-160">
-          <img src="./assets/product1.png" alt="product1" />
+        <div class="grid grid-cols-3 w-160 select-none">
+          <img src="./assets/product1.png" alt="product1" draggable="false" />
           <div class="grid w-48">
             <img
               class="-translate-y-20"
               src="./assets/product2.png"
-              alt="product2" />
+              alt="product2"
+              draggable="false" />
             <div class="flex justify-center">
-              <p class="text-2xl">Price: <span class="font-bold"> $45.99</span></p>
+              <p class="text-2xl">
+                Price: <span class="font-bold"> $45.99</span>
+              </p>
             </div>
           </div>
-          <img src="./assets/product3.png" alt="product3" />
+          <img src="./assets/product3.png" alt="product3" draggable="false" />
         </div>
       </div>
 
@@ -111,13 +120,44 @@
       </div>
     </article>
 
-    <article></article>
-    <article></article>
+    <article class="grid justify-center items-center p-30">
+      <h2 class="text-5xl mb-6 font-semibold">Top Sellers</h2>
+      <div class="flex">
+        <input type="radio" name="type" checked />
+        <p>Top picks</p>
+        <input type="radio" name="type" />
+        <p>Watches</p>
+      </div>
+      <div class="grid grid-cols-3">
+        <Product></Product>
+        <Product></Product>
+        <Product></Product>
+      </div>
+    </article>
+
+    <article class="grid justify-center items-center p-30">
+      <h2 class="text-5xl mb-6 font-semibold">Trending Earphones</h2>
+      <div class="flex">
+        <input type="radio" name="type" checked />
+        <p>Earbuds</p>
+        <input type="radio" name="type" />
+        <p>Wireless</p>
+        <input type="radio" name="type" />
+        <p>Wired</p>
+      </div>
+      <div class="grid grid-cols-3">
+        <Product></Product>
+        <Product></Product>
+        <Product></Product>
+      </div>
+    </article>
     <article></article>
     <footer></footer>
   </div>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+  import SearchInput from './components/SearchInput.vue';
+</script>
 
 <style></style>
