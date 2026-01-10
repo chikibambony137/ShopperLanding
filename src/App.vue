@@ -5,7 +5,7 @@
       <h1 class="text-4xl italic">
         <span class="text-[#10b981]">Shop</span>per
       </h1>
-      <div>
+      <div class="flex gap-10">
         <SearchInput></SearchInput>
         <CartButton></CartButton>
         <LoginButton></LoginButton>
@@ -158,6 +158,7 @@
 
 <script lang="ts" setup>
   import SearchInput from './components/SearchInput.vue';
+  import CartButton from './components/CartButton.vue';
 </script>
 
 <style></style>
