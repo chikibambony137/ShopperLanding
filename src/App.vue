@@ -8,7 +8,7 @@
       <div class="flex gap-10">
         <SearchInput></SearchInput>
         <CartButton></CartButton>
-        <LoginButton></LoginButton>
+        <ProfileButton></ProfileButton>
       </div>
     </header>
 
@@ -159,6 +159,7 @@
 <script lang="ts" setup>
   import SearchInput from './components/SearchInput.vue';
   import CartButton from './components/CartButton.vue';
+  import ProfileButton from './components/ProfileButton.vue';
 </script>
 
 <style></style>
