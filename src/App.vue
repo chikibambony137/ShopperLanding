@@ -21,7 +21,7 @@
     </nav>
 
     <main class="container mx-auto">
-      <article
+      <section
         class="grid grid-flow-row justify-center pb-16 xl:grid-cols-[1fr_2fr]">
         <div class="pt-30 pl-4 xl:pl-20 xl:pr-20 row-end-1">
           <h2 class="text-6xl xl:w-125 mb-8 font-semibold">
@@ -68,9 +68,9 @@
           </div>
           <p class="w-25 font-medium text-2xl">15k Well Reviews</p>
         </div>
-      </article>
+      </section>
   
-      <article class="grid grid-cols-[4fr_3fr] bg-[#845ec2] h-150 text-white">
+      <section class="grid grid-cols-[4fr_3fr] bg-[#845ec2] h-150 text-white">
         <div class="pt-20 pl-24">
           <h1 class="h-35">
             <svg class="flex w-full flex-wrap">
@@ -119,9 +119,9 @@
           <button class="mr-12">Add to cart</button>
           <a>View more</a>
         </div>
-      </article>
+      </section>
   
-      <article class="grid justify-center items-center p-30">
+      <section class="grid justify-center items-center p-30">
         <h2 class="text-5xl mb-6 font-semibold">Top Sellers</h2>
         <div class="flex">
           <input type="radio" name="type" checked />
@@ -134,9 +134,9 @@
           <Product></Product>
           <Product></Product>
         </div>
-      </article>
+      </section>
   
-      <article class="grid justify-center items-center p-30">
+      <section class="grid justify-center items-center p-30">
         <h2 class="text-5xl mb-6 font-semibold">Trending Earphones</h2>
         <div class="flex">
           <input type="radio" name="type" checked />
@@ -151,8 +151,8 @@
           <Product></Product>
           <Product></Product>
         </div>
-      </article>
-      <article></article>
+      </section>
+      <section></section>
     </main>
     <footer></footer>
   </div>
