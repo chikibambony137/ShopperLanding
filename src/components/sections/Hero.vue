@@ -9,7 +9,7 @@
         Lorem ipsum is a placeholder text commonly used to demonstrate the
         visual form of a product
       </p>
-      <button class="mb-28">Buy Now</button>
+      <DefaultButton>Buy Now</DefaultButton>
     </div>
 
     <div
@@ -49,6 +49,8 @@
   </section>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+  import DefaultButton from '../buttons/DefaultButton.vue';
+</script>
 
 <style></style>

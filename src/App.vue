@@ -10,7 +10,6 @@
     <section></section>
   </main>
   <footer></footer>
-  Выделить разделы в компоненты Vue и настроить alias @
 </template>
 
 <script lang="ts" setup>

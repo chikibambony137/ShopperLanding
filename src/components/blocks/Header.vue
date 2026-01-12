@@ -11,7 +11,7 @@
 </template>
 
 <script lang="ts" setup>
-import SearchInput from "../buttons/SearchInput.vue";
+import SearchInput from "./SearchInput.vue";
 import CartButton from "../buttons/CartButton.vue";
 import ProfileButton from "../buttons/ProfileButton.vue";
 </script>

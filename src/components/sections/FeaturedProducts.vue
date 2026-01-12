@@ -45,12 +45,14 @@
         Lorem ipsum is a placeholder text commonly used to demonstrate the
         visual form of a product
       </p>
-      <button class="mr-12">Add to cart</button>
-      <a>View more</a>
+      <DefaultButton class="mr-12">Add to cart</DefaultButton>
+      <a class="text-xl font-semibold select-none cursor-pointer">View more</a>
     </div>
   </section>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+  import DefaultButton from '../buttons/DefaultButton.vue';
+</script>
 
 <style></style>
