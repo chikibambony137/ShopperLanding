@@ -2,11 +2,11 @@
   <section class="grid justify-center items-center p-30">
     <h2 class="text-5xl mb-6 font-semibold">Trending Earphones</h2>
     <div class="flex">
-      <input type="radio" name="type" checked />
+      <input type="radio" name="product" checked />
       <p>Earbuds</p>
-      <input type="radio" name="type" />
+      <input type="radio" name="product" />
       <p>Wireless</p>
-      <input type="radio" name="type" />
+      <input type="radio" name="product" />
       <p>Wired</p>
     </div>
     <div class="grid grid-cols-3">

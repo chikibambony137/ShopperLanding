@@ -1,9 +1,9 @@
 <template>
   <div role="article" class="grid gap-8">
-    <div class="relative p-8 rounded-xl grid gap-8" :class="mainBgColor">
+    <div class="relative p-8 rounded-xl grid gap-8" :style="mainBgColor">
       <div
         v-if="props.discount"
-        :class="discountBgColor"
+        :style="discountBgColor"
         class="absolute right-3 top-3 w-25 h-25 p-1 text-white font-semibold text-xl rounded-[100%] flex justify-center items-center flex-col">
         <p>Save</p>
         <p>{{ props.discount }}%</p>
@@ -38,6 +38,7 @@
 </template>
 
 <script lang="ts" setup>
+import { computed } from "vue";
 import DefaultButton from "../buttons/DefaultButton.vue";
 
 const props = defineProps({
@@ -65,14 +66,22 @@ const props = defineProps({
     type: Number,
     required: false,
   },
-  bgColor: {
+  baseBgColor: {
     type: String,
     required: false,
+    default: '#10b981'
   },
 });
 
-const discountBgColor = "bg-[#" + props.bgColor + "]";
-const mainBgColor = "bg-[#" + props.bgColor + "42]";
+// Основной цвет
+const mainBgColor = computed(() => ({
+  backgroundColor: props.baseBgColor + '42', // 42 = 26% прозрачности
+}));
+
+// Цвет скидки с прозрачностью
+const discountBgColor = computed(() => ({
+  backgroundColor: props.baseBgColor,
+}));
 </script>
 
 <style></style>
