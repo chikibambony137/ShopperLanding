@@ -16,7 +16,7 @@
     </div>
     
     <div class="flex">
-      <div class="grid grid-cols-3 gap-25">
+      <div class="grid grid-cols-3 gap-25 transition-transform duration-300 ease-in-out">
         <Product
           v-for="product in products"
           :key="product.id"
@@ -52,6 +52,7 @@ const props = defineProps({
   },
   products: {
     type: Array<ProductType>,
+      required: true,
   },
 });
 

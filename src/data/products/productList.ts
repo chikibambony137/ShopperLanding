@@ -7,6 +7,7 @@ const productList: Array<ProductType> = [
     {id: 3, name: "Boat Rockerz 333", price: 20, discount: 60, starCount: 5, reviewCount: 75, img: "ear4.png", baseBgColor: "#74b6f7"},
     {id: 4, name: "Boat kerz 234", price: 40, starCount: 5, reviewCount: 75, img: "ear5.png", baseBgColor: "#66d4fa"},
     {id: 5, name: "Boat Rockerz 323", price: 30, discount: 40, starCount: 5, reviewCount: 75, img: "ear6.png", baseBgColor: "#08bdbe"},
+    {id: 6, name: "Boat Rockerz 333", price: 20, discount: 60, starCount: 5, reviewCount: 75, img: "ear1.png", baseBgColor: "#10b981"},
 ]
 
 export default productList;

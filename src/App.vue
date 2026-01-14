@@ -14,9 +14,10 @@
 
     <ProductPageTemplate
       class="mb-30"
-      sectionTitle="Top Sellers"
+      sectionTitle="Trending Earphones"
       :filters="filters2"
       :products="products2"></ProductPageTemplate>
+
     <!-- <TopSellers class="mb-30"></TopSellers>
     <TrendingEarphones class="mb-30"></TrendingEarphones> -->
     <section></section>
