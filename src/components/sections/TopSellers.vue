@@ -1,9 +1,9 @@
 <template>
-  <section class="grid justify-center items-center p-30">
+  <section class="grid justify-center items-center px-30">
     <h2 class="text-5xl mb-14 font-semibold flex justify-center items-center">
       Top Sellers
     </h2>
-    <div class="flex justify-center items-center mb-20 gap-8">
+    <div class="flex justify-center items-center mb-10 gap-8">
       <RadioButton value="toppicks" name="type" v-model="selectedValue">
         Top Picks
       </RadioButton>

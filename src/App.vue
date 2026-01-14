@@ -4,9 +4,9 @@
 
   <main class="container mx-auto">
     <Hero></Hero>
-    <FeaturedProducts></FeaturedProducts>
-    <TopSellers></TopSellers>
-    <TrendingEarphones></TrendingEarphones>
+    <FeaturedProducts class="mb-30"></FeaturedProducts>
+    <TopSellers class="mb-30"></TopSellers>
+    <TrendingEarphones class="mb-30"></TrendingEarphones>
     <section></section>
   </main>
   <footer></footer>
