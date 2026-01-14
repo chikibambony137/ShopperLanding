@@ -4,7 +4,7 @@
       Top Sellers
     </h2>
     <div class="flex justify-center items-center mb-20 gap-8">
-      <RadioButton value="top" name="type" v-model="selectedValue">
+      <RadioButton value="toppicks" name="type" v-model="selectedValue">
         Top Picks
       </RadioButton>
       <RadioButton value="watches" name="type" v-model="selectedValue">
@@ -46,7 +46,7 @@ import { ref } from "vue";
 import Product from "../blocks/Product.vue";
 import RadioButton from "../buttons/RadioButton.vue";
 
-const selectedValue = ref("top"); // Значение по умолчанию
+const selectedValue = ref("toppicks"); // Значение по умолчанию
 </script>
 
 <style></style>
