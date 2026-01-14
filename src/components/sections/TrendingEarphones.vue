@@ -5,13 +5,13 @@
     </h2>
 
     <div class="flex justify-center items-center mb-10 gap-8">
-      <RadioButton value="earbuds" name="ears" v-model="selectedValue">
+      <RadioButton value="earbuds" group="ears" v-model="selectedValue">
         Earbuds
       </RadioButton>
-      <RadioButton value="wireless" name="ears" v-model="selectedValue">
+      <RadioButton value="wireless" group="ears" v-model="selectedValue">
         Wireless
       </RadioButton>
-      <RadioButton value="wired" name="ears" v-model="selectedValue">
+      <RadioButton value="wired" group="ears" v-model="selectedValue">
         Wired
       </RadioButton>
     </div>

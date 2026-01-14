@@ -9,7 +9,7 @@
       class="hidden"
       :id="value"
       :value="value"
-      :name="name"
+      :name="group"
       :checked="modelValue === value"
       type="radio" />
     <label :for="value" class="cursor-pointer"><slot></slot></label>
@@ -24,7 +24,7 @@ const props = defineProps({
     type: String,
     required: true,
   },
-  name: {
+  group: {
     type: String,
     required: true,
   },

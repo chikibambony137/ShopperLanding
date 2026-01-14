@@ -44,7 +44,7 @@ import DefaultButton from "../buttons/DefaultButton.vue";
 const props = defineProps({
   img: {
     type: String,
-    required: true,
+    required: false,
   },
   name: {
     type: String,
