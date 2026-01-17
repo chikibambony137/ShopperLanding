@@ -1,7 +1,7 @@
 <template>
-  <footer class="container mx-auto">
+  <footer class="container mx-auto px-40">
     <div class="grid grid-cols-[450px_1fr] grid-rows-[100px_auto_100px]">
-      <div class="col-span-2 flex justify-end items-center gap-10">
+      <div class="col-span-2 flex justify-end items-center gap-10 border-b-2 border-gray-200">
         <p class="text-2xl">Ready to get started?</p>
         <DefaultButton class="w-50 h-15 text-[17px] rounded-none"
           >Get Started</DefaultButton
@@ -21,7 +21,7 @@
         </form>
       </div>
 
-      <div class="grid grid-cols-3 gap-y-5 text-[19px] p-8">
+      <div class="grid grid-cols-3 gap-y-5 text-[15px] p-8">
         
         <a class="text-[#11ba82]" href="/">Services</a>
         <a class="text-[#11ba82]" href="/">About</a>
@@ -50,9 +50,9 @@
       </div>
 
       <div class="flex justify-end items-center">
-        <a class="mr-10" href="/"><img class="w-4" src="../../assets/facebook.png" alt="facebook"></a>
-        <a class="mr-8" href="/"><img class="w-10" src="../../assets/twitter.png" alt="twitter"></a>
-        <a href="/"><img class="w-8" src="../../assets/instagram.png" alt="instagram"></a>
+        <a class="mr-10" href="/"><img class="w-3" src="../../assets/facebook.png" alt="facebook"></a>
+        <a class="mr-8" href="/"><img class="w-7" src="../../assets/twitter.png" alt="twitter"></a>
+        <a href="/"><img class="w-7" src="../../assets/instagram.png" alt="instagram"></a>
       </div>
     </div>
   </footer>
