@@ -28,7 +28,7 @@
 
           <ColorPicker class="mb-10" :colors="['#111111', '#fff500', '#4484ff']"></ColorPicker>
 
-          <DefaultButton class="mr-16">Add to cart</DefaultButton>
+          <DefaultButton class="mr-16 rounded-xl">Add to cart</DefaultButton>
           <a class="text-xl font-semibold select-none cursor-pointer"
             >Explore more</a
           >

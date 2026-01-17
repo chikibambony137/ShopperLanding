@@ -21,9 +21,9 @@
     <!-- <TopSellers class="mb-30"></TopSellers>
     <TrendingEarphones class="mb-30"></TrendingEarphones> -->
 
-    <NewLaunches class="mb-30"></NewLaunches>
+    <NewLaunches class="mb-32"></NewLaunches>
   </main>
-  <footer></footer>
+  <Footer></Footer>
 </template>
 
 <script lang="ts" setup>
@@ -33,6 +33,7 @@ import Hero from "./components/sections/Hero.vue";
 import FeaturedProducts from "./components/sections/FeaturedProducts.vue";
 import ProductPageTemplate from "./components/sections/ProductPageTemplate.vue";
 import NewLaunches from "./components/sections/NewLaunches.vue";
+import Footer from "./components/blocks/Footer.vue";
 
 import productList from "./data/products/productList";
 import filterList from "./data/filters/filterList";

@@ -45,7 +45,7 @@
         Lorem ipsum is a placeholder text commonly used to demonstrate the
         visual form of a product
       </p>
-      <DefaultButton class="mr-12">Add to cart</DefaultButton>
+      <DefaultButton class="mr-12 rounded-xl">Add to cart</DefaultButton>
       <a class="text-xl font-semibold select-none cursor-pointer">View more</a>
     </div>
   </section>

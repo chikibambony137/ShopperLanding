@@ -33,7 +33,7 @@
         <p class="text-xl font-semibold">${{ price }}</p>
       </div>
     </div>
-    <DefaultButton>Add to cart</DefaultButton>
+    <DefaultButton class="rounded-xl">Add to cart</DefaultButton>
   </div>
 </template>
 

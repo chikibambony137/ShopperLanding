@@ -9,7 +9,7 @@
         Lorem ipsum is a placeholder text commonly used to demonstrate the
         visual form of a product
       </p>
-      <DefaultButton>Buy Now</DefaultButton>
+      <DefaultButton class="rounded-xl">Buy Now</DefaultButton>
     </div>
 
     <div
