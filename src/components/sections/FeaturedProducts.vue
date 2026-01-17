@@ -52,7 +52,7 @@
 </template>
 
 <script lang="ts" setup>
-  import DefaultButton from '../buttons/DefaultButton.vue';
+import DefaultButton from "../buttons/DefaultButton.vue";
 </script>
 
 <style></style>

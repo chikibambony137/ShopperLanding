@@ -20,7 +20,8 @@
 
     <!-- <TopSellers class="mb-30"></TopSellers>
     <TrendingEarphones class="mb-30"></TrendingEarphones> -->
-    <section></section>
+
+    <NewLaunches class="mb-30"></NewLaunches>
   </main>
   <footer></footer>
 </template>
@@ -31,6 +32,7 @@ import Nav from "./components/blocks/Nav.vue";
 import Hero from "./components/sections/Hero.vue";
 import FeaturedProducts from "./components/sections/FeaturedProducts.vue";
 import ProductPageTemplate from "./components/sections/ProductPageTemplate.vue";
+import NewLaunches from "./components/sections/NewLaunches.vue";
 
 import productList from "./data/products/productList";
 import filterList from "./data/filters/filterList";
