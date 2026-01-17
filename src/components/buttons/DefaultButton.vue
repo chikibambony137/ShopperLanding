@@ -1,5 +1,5 @@
 <template>
-  <button class=" text-xl text-white font-semibold px-20 py-5 bg-[#10b981] select-none cursor-pointer">
+  <button class=" text-xl text-white font-semibold px-10 py-5 bg-[#10b981] select-none cursor-pointer">
     <slot>Click me!</slot>
   </button>
 </template>
